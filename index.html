@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <!--Etiquetas meta y title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#96CEB4">
+    <title>Hotel Dorado</title>
+    <meta name="description" content="Este sitio web pertenece a mi portafolio.">
+    <meta name="author" content="Salem Martínez">
+    <!--Normalize Css-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Archivo Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Bootstrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <!--Libreria ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="color-fondo">
+    <!--Contenido del menú de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark color-menu shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand mx-auto"><img src="img/logo.svg" class="logo ms-5" title="Hotel Dorado" alt="Logo Hotel Dorado
+                    "></a>
+            <button class="navbar-toggler" id="btn-menu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#miMenu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="miMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link ev-js1 ev-js2" aria-current="page" href="#enlace-1"><i
+                                class="fas fa-bed iconos"></i><span>Le Ofrecemos</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ev-js1 ev-js2" href="#enlace-2"><i
+                                class="fas fa-cocktail iconos"></i><span>Planes</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ev-js1 ev-js2" href="#enlace-3"><i
+                                class="fas fa-map-pin iconos"></i><span>Ubíquenos</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin contenido del menú de navegación-->
+
+    <!--Contenido cuerpo de la página-->
+    <header class="cabecera py-5">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="etiqueta-h1 display-4 lh-1 pt-3 mb-3">Vertically centered hero sign-up form</h1>
+                    <p class="col-lg-10 fs-4 parrafo">Below is an example form built entirely with Bootstrap’s form
+                        controls. Each
+                        required form group has a validation state that can be triggered by attempting to submit the
+                        form without
+                        completing it.</p>
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+                    <img src="img/hotel-frente-al-mar.svg" class="img-fluid hotel" alt="Hotel El Dorado">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="seccion py-5" id="enlace-1">
+        <div class="container">
+            <h2 class="etiqueta-h2 mb-3"><i class="fas fa-glass-martini-alt"></i>Le Ofrecemos<i
+                    class="fas fa-umbrella-beach"></i>
+            </h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow" id="tarjeta">
+                        <div class="card-body">
+                            <img src="img/habitaciones.svg" class="card-img-top servicios" alt="Misión">
+                            <h4 class="card-title etiqueta-h4">Habitaciones</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Excepturi nam, ex eum odit optio officia sunt soluta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow" id="tarjeta">
+                        <div class="card-body">
+                            <img src="img/comida.svg" class="card-img-top servicios" alt="Misión">
+                            <h4 class="card-title etiqueta-h4">Room Service</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Excepturi nam, ex eum odit optio officia sunt soluta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow" id="tarjeta">
+                        <div class="card-body">
+                            <img src="img/recepcion.svg" class="card-img-top servicios" alt="Misión">
+                            <h4 class="card-title etiqueta-h4">Check-In</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Excepturi nam, ex eum odit optio officia sunt soluta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow" id="tarjeta">
+                        <div class="card-body">
+                            <img src="img/piscina.svg" class="card-img-top servicios" alt="Misión">
+                            <h4 class="card-title etiqueta-h4">Piscinas y Juegos</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Excepturi nam, ex eum odit optio officia sunt soluta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="enlace-2">
+        <div class="container">
+            <h2 class="etiqueta-h2 mb-3"><i class="fas fa-glass-martini-alt"></i>Planes<i
+                    class="fas fa-umbrella-beach"></i></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center rounded-3 shadow">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Plan Plata</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$150<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>5 users included</li>
+                                <li>5 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg text-white" id="btn-planes">Sign up for
+                                free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center rounded-3 shadow">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Plan Oro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$350<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg text-white" id="btn-planes">Sign up for
+                                free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center rounded-3 shadow">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Plan Diamante</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$650<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>15 users included</li>
+                                <li>20 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg text-white" id="btn-planes">Sign up for
+                                free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contenido pie de página-->
+    <section class=" seccion py-5" id="enlace-3">
+        <div class="container">
+            <h2 class="etiqueta-h2 mb-3"><i class="fas fa-glass-martini-alt"></i>Ubíquenos<i
+                    class="fas fa-umbrella-beach"></i>
+            </h2>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-7">
+                    <p class="lead text-center text-white parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ex
+                        sed
+                        officia sit neque provident nemo quos nam fuga!</p>
+                    <ul>
+                        <li class="lista"><a href="https://es-la.facebook.com/" class="enlace" target="_blank"><img
+                                    src="img/facebook.svg" class="redes-sociales" alt="Facebook"><span>Lorem
+                                    ipsum dolor sit
+                                    amet.</span></a></li>
+                        <li class="lista"><a href="https://web.whatsapp.com/" class="enlace" target="_blank"><img
+                                    src="img/whatsapp.svg" class="redes-sociales" alt="WhatsApp"><span>+57 302
+                                    968 7701</span></a>
+                        </li>
+                        <li class="lista"><a href="https://www.instagram.com/?hl=es-la" class="enlace"
+                                target="_blank"><img src="img/instagram.svg" class="redes-sociales"
+                                    alt="Instagram"><span>Lorem eum inventore
+                                    totam.</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62614.475943319856!2d-74.2174167300676!3d11.231607344199277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f66ff59a173d%3A0x124b95fc153af9b8!2sSanta%20Marta%2C%20Magdalena!5e0!3m2!1ses!2sco!4v1624291124205!5m2!1ses!2sco"
+                        class="mapa" style="border:0; width: 100%; height: 300px;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="color-pie-pagina py-1">
+        <div class="container">
+            <p class="lead text-center text-white pt-3">Hecho con<i class="fas fa-heart corazon"></i>por Salem Martínez.
+            </p>
+        </div>
+    </footer>
+    <!--Fin contenido pie de página-->
+
+    <!--Libreria jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!--Archivo JavaScript-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

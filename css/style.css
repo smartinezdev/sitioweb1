@@ -1,0 +1,193 @@
+/*Estilos de las fuentes*/
+@font-face {
+    font-family: 'Odibee Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/odibeesans/v4/neIPzCSooYAho6WvjeToRbk1cJA.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/amaranth/v11/KtkuALODe433f0j1zMnFHdA.woff2) format('woff2');
+}
+
+.etiqueta-h1 {
+    color: #2EB086;
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 40px;
+}
+
+.etiqueta-h2 {
+    color: #fff;
+    filter: drop-shadow(0px 2px 8px rgba(255, 255, 255, 0.966));
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.etiqueta-h4 {
+    color: #1572A1;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+}
+
+.parrafo {
+    color: #2EB086;
+}
+
+p {
+    color: #000;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+}
+
+/*Fin estilos de las fuentes*/
+
+/*Estilos de la barra de desplazamiento*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #9AD0EC;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #02475e;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+}
+
+/*Fin estilos de la barra de desplazamiento*/
+
+/*Estilos del menú de navegación*/
+.color-menu {
+    background-color: #24A19C;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#btn-menu {
+    background-color: #C1DEAE;
+    padding: 10px;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #C1DEAE;
+    border-radius: 5px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.iconos {
+    color: #fff;
+    margin-right: 5px;
+}
+
+/*Fin estilos del menú de navegación*/
+
+/*Estilos de la cabecera*/
+.color-fondo {
+    background-color: #C1DEAE;
+}
+
+.hotel {
+    display: block;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin: auto;
+    width: 300px;
+}
+
+/*Fin estilos de la cabecera*/
+
+/*Estilos de los servicios*/
+.seccion {
+    background-color: #2EB086;
+}
+
+.servicios {
+    display: block;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    height: 100px;
+    margin: auto;
+}
+
+.fa-glass-martini-alt {
+    margin-right: 5px;
+}
+
+.fa-umbrella-beach {
+    margin-left: 5px;
+}
+
+/*Fin estilos de los servicios*/
+
+/*Edtilos de los planes*/
+#btn-planes {
+    background-color: #1572A1;
+}
+
+/*Fin estilos de los planes*/
+
+/*Estilos del pie de página*/
+.color-pie-pagina {
+    background-color: #24A19C;
+}
+
+.lista {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.redes-sociales {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-right: 12px;
+    width: 50px;
+}
+
+.corazon {
+    color: #d63447;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: latidos 1s infinite;
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+/*Fin estilos del pie de página*/
